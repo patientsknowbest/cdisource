@@ -11,3 +11,10 @@ To learn more about this project go here:
  * Google project code  http://code.google.com/p/jee6-cdi/
  * Comprehensive CDI tutorial http://code.google.com/p/jee6-cdi/wiki/DependencyInjectionAnIntroductoryTutorial
  * Google Group for email support for examples http://groups.google.com/group/cdiadvocate4j?pli=1
+ 
+# PKB: steps to republish:
+ * Clone repository to your machine
+ * Make sure it compiles, update version if needed (using 'mvn versions:set -DnewVersion=<new-version>'
+ * Run 'mvn deploy -DaltDeploymentRepository=github-central::default::https://maven.pkg.github.com/patientsknowbest/cdisource' 
+ /!\ username declared in the maven settings.xml file (in /home/.m2 folder) should have a token with adequate permissions, you may need to create one 
+ (it needs scopes repo, read:packages and write:packages)
