@@ -5,12 +5,12 @@
 	<artifactId>springbridge</artifactId>
 	<packaging>jar</packaging>
 	<name>Spring Bridge</name>
-	<version>1.0-SNAPSHOT</version>
+	<version>1.2-GAR2</version>
 
 	<parent>
 		<groupId>org.cdisource</groupId>
 		<artifactId>cdisource-parent</artifactId>
-		<version>1.0-SNAPSHOT</version>
+		<version>1.2-GAR2</version>
 		<relativePath>../parent</relativePath>
 	</parent>
 
@@ -105,13 +105,13 @@
 		<dependency>
 			<groupId>org.cdisource.beancontainer</groupId>
 			<artifactId>beancontainer-api</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.2-GAR2</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.cdisource.testing</groupId>
 			<artifactId>cdisource-testing-junit</artifactId>
-			<version>1.0-SNAPSHOT</version>
+			<version>1.2-GAR2</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -165,7 +165,7 @@
 				<dependency>
 					<groupId>org.cdisource.beancontainer</groupId>
 					<artifactId>beancontainer-resin-impl</artifactId>
-					<version>1.0-SNAPSHOT</version>
+					<version>1.2-GAR2</version>
 					<scope>test</scope>
 				</dependency>
 			</dependencies>
@@ -196,7 +196,7 @@
 				<dependency>
 					<groupId>org.cdisource.beancontainer</groupId>
 					<artifactId>beancontainer-weld-impl</artifactId>
-					<version>1.0-SNAPSHOT</version>
+					<version>1.2-GAR2</version>
 					<scope>test</scope>
 				</dependency>
 			</dependencies>
@@ -227,7 +227,7 @@
 				<dependency>
 					<groupId>org.cdisource.beancontainer</groupId>
 					<artifactId>beancontainer-openwebbeans-impl</artifactId>
-					<version>1.0-SNAPSHOT</version>
+					<version>1.2-GAR2</version>
 					<scope>test</scope>
 				</dependency>
 			</dependencies>
