@@ -14,7 +14,6 @@ To learn more about this project go here:
  
 # PKB: steps to republish:
  * Clone repository to your machine
- * Make sure it compiles, update version if needed (using 'mvn versions:set -DnewVersion=<new-version>'
- * Run 'mvn deploy -DaltDeploymentRepository=github-central::default::https://maven.pkg.github.com/patientsknowbest/cdisource' 
- /!\ username declared in the maven settings.xml file (in /home/.m2 folder) should have a token with adequate permissions, you may need to create one 
- (it needs scopes repo, read:packages and write:packages)
+ * Make sure it compiles
+ * update version if needed (using 'mvn versions:set -DnewVersion=<new-version>'
+ * Run 'mvn deploy'
